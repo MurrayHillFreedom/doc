@@ -1,0 +1,95 @@
+# 网站信息
+site_name: MHF Docs
+# site_url: 
+site_author: zlykernel
+
+# github 仓库信息
+repo_name: mhf-doc
+repo_url: https://github.com/MurrayHillFreedom/mhf-doc
+
+# 版权信息
+copyright: Copyright &copy; 2021-present <a href="https://github.com/MurrayHillFreedom" target="_blank" rel="noopener noreferrer">MurrayHillFreedom</a>
+
+# 主题
+theme:
+  name: material
+  language: zh
+  static_templates:
+    - 404.html
+  features:
+    - header.autohide
+    # 导航设置
+    # - navigation.instant
+    # 导航栏展开
+    - navigation.expand
+    # - navigation.sections
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.indexes
+    # 搜索高亮
+    - search.highlight
+    # 搜索分享
+    - search.share
+    # 搜索建议
+    - search.suggest
+    # - toc.integrate
+    - content.code.annotate
+  # 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode  
+  # 自定目录 覆写模板
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+  custom_dir: overrides
+# 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+# 插件
+plugins:
+  - search:
+      lang: ja
+  # 在文档最后添加markdown的最后修改时间 pip install mkdocs-git-revision-date-localized-plugin
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MurrayHillFreedom/mhf-doc
+  analytics:
+    provider: google
+    property: G-KJB4RXSKZG
+# 导航
+nav:
+  - 前言: 
+    - 什么是MHF: "index.md"
+    - 关于作者: "index.md"
+    - 如何阅读本文档:  "index.md"
+  - 基础框架篇: "index.md"
+  - 功能模块篇: "index.md"
+  - 最佳实践篇: "index.md"
+  - 工具篇:  "index.md"
+  - 知识学习篇:  "index.md"
+   
