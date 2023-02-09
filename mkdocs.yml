@@ -22,8 +22,9 @@ theme:
     # - navigation.instant
     # 导航栏展开
     - navigation.expand
-    # - navigation.sections
+    - navigation.sections
     - navigation.tracking
+    # 导航编程tab页(横向)
     # - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.top
@@ -52,13 +53,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode  
-  # 自定目录 覆写模板
   font:
     text: Roboto
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
 
+  # 自定目录 覆写模板
   custom_dir: overrides
 # 
 markdown_extensions:
@@ -81,15 +82,15 @@ extra:
   analytics:
     provider: google
     property: G-KJB4RXSKZG
+  
 # 导航
 nav:
-  - 前言: 
-    - 什么是MHF: "index.md"
-    - 关于作者: "index.md"
-    - 如何阅读本文档:  "index.md"
-  - 基础框架篇: "index.md"
-  - 功能模块篇: "index.md"
-  - 最佳实践篇: "index.md"
-  - 工具篇:  "index.md"
-  - 知识学习篇:  "index.md"
+  - 什么是MHF: "index.md"
+  - 关于作者: ""
+  - 如何阅读本文档: ""
+  - 基础框架篇: ""
+  - 功能模块篇: ""
+  - 最佳实践篇: ""
+  - 工具篇: ""
+  - 学习质料篇: ""
    
