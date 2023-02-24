@@ -22,7 +22,7 @@ theme:
     # - navigation.instant
     # 导航栏展开
     - navigation.expand
-    - navigation.sections
+    # - navigation.sections
     - navigation.tracking
     # 导航编程tab页(横向)
     # - navigation.tabs
@@ -85,12 +85,16 @@ extra:
   
 # 导航
 nav:
-  - 什么是MHF: "index.md"
-  - 关于作者: ""
-  - 如何阅读本文档: ""
-  - 基础框架篇: ""
-  - 功能模块篇: ""
+  - 什么是MHF: "1-前言/什么是MHF&&简介.md"
+  - 关于作者: "1-前言/关于作者.md"
+  - 如何阅读本文档: "1-前言/如何阅读本文档.md"
+  - 架构篇:
+    - 方法论: "2-架构篇/方法论.md"
+  - 基础框架篇: 
+    - 本章整体说明 : "3-基础框架篇/本章整体说明.md"
+  - 功能模块篇: 
+    - 本章整体说明 : "4-功能模块篇/本章整体说明.md"
+    - 用户模块 : "4-功能模块篇/用户模块.md"
   - 最佳实践篇: ""
-  - 工具篇: ""
-  - 学习质料篇: ""
+  - 后记: ""
    
